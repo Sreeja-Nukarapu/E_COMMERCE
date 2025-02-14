@@ -1,0 +1,67 @@
+.about-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 80px 20px 20px 20px; /* Reduced from 90px to 80px */
+    background-color: #f8f9fa;
+}
+
+/* Remove nested container padding */
+.about-container .container {
+    padding: 0;
+    margin-top: 0 !important;
+}
+
+/* Adjust row spacing */
+.about-container .row {
+  margin: 20px 0;
+}
+
+/* Card adjustments */
+.about-container .card {
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.about-container .card-img-top {
+  padding: 10px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.about-container .card-body {
+  padding: 15px 0 0 0;
+}
+
+/* Text spacing */
+.about-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-container h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-container h5 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Image container */
+.about-container .img-fluid {
+    margin: 15px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-container {
+        padding-top: 60px; /* Reduced from 70px to 60px for mobile */
+        padding: 15px;
+    }
+    
+    .about-container .row {
+        margin: 10px 0;
+    }
+}

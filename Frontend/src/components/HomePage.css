@@ -1,0 +1,59 @@
+/* Update product card styling for better Amazon-like appearance */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: contain;
+  padding: 15px;
+  background: #fff;
+}
+
+.price {
+  color: #B12704;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.rating {
+  background: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Add hover effect to Add to Cart button */
+.btn-primary {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0b5ed7;
+  border-color: #0b5ed7;
+  color: #fff;
+}
+
+.filter-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-section input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}

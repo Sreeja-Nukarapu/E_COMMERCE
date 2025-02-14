@@ -1,0 +1,35 @@
+/* Card styles */
+.card {
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.card-header {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+
+/* Input styles */
+.form-control, 
+.form-select {
+    border-radius: 8px !important;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 8px !important;
+}
+
+/* Payment method cards */
+.cursor-pointer {
+    border-radius: 10px !important;
+}
+
+/* Success popup */
+.modal-content {
+    border-radius: 16px !important;
+}
+
+.alert {
+    border-radius: 8px !important;
+}

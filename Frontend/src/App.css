@@ -1,0 +1,42 @@
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1000;
+  background-color: white; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin-top: 60px; /* Adjust if your mobile navbar height is different */
+    padding: 16px;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px; 
+}
+
+.content-wrapper {
+  margin-top: 60px; 
+  flex: 1;
+  padding: 20px 0;
+}
+
+.homepage-container {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;}

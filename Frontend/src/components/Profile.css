@@ -1,0 +1,107 @@
+.profile-container {
+    min-height: 100vh;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  /* Reset padding */
+    margin: 0;   /* Reset margin */
+    position: fixed;  /* Fix position */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;  /* Allow scroll only if needed */
+}
+
+.profile-card {
+    max-width: 600px;
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px !important;
+}
+
+.profile-info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.profile-info label {
+    font-weight: 600;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-update-profile,
+.btn-change-password,
+.btn-primary {
+    background: #FFA41C;
+    color: #000;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-update-profile:hover,
+.btn-change-password:hover,
+.btn-primary:hover {
+    background: #ff8c00;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Form styling */
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-container {
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+    
+    .profile-card {
+        margin: 10px auto;
+    }
+}
